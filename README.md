@@ -28,7 +28,15 @@ Nosotros organizamos la lista de cadenas por ventas totales de mayor a menor en 
 ![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/84dfb033-04ac-4543-aca9-bb2a979aa2f1)
 
 
-Para escribir en el archivo SCV ingresamos a la ruta del archivo, validamos por nombre y el total del recaudo para así visualizar la información de los vendedores. 
+
+
+![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/10025a44-f344-4fac-9227-12e0f766c49f)
+
+
+Esta parte del código es el encargado de escribir datos sobre los vendedores en un archivo CSV llamado (reporte_ventas_vendedores.csv) donde cada vendedor está representado como una fila de datos y los atributos del vendedor como una columna que está separada por punto y coma, la parte del código (BufferredWriter writer = new BufferedWriter( “reporte_ventas_vendedore.csv))), BufferedWriter es un “envoltorio” alrededor del FileWriter que lo que hace es mejorar la eficiencia de escritura. Y FileWriter se encarga de escribir en un archivo, si no existe, lo crea; si ya existe lo que hará es sobreescribirlo.
+
+
+![image](https:/Para escribir en el archivo SCV ingresamos a la ruta del archivo, validamos por nombre y el total del recaudo para así visualizar la información de los vendedores. 
 
 ![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/a8368b0a-d415-4dc4-adec-93ff35755f3e)
 
@@ -45,15 +53,7 @@ En el código agregamos la variable (TEMP) la cual nos ayudo a almacenar tempora
 
 NOTA: Si ocurre un error este se va imprimir en un mensaje de (ERROR) por consola señalando que tipo de error ocurrió, esto nos va a permitir identificar los bugs para así permitirnos solucionarlos, todo esto con base a la escritura de los archivos.
 
-
-
-![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/10025a44-f344-4fac-9227-12e0f766c49f)
-
-
-Esta parte del código es el encargado de escribir datos sobre los vendedores en un archivo CSV llamado (reporte_ventas_vendedores.csv) donde cada vendedor está representado como una fila de datos y los atributos del vendedor como una columna que está separada por punto y coma, la parte del código (BufferredWriter writer = new BufferedWriter( “reporte_ventas_vendedore.csv))), BufferedWriter es un “envoltorio” alrededor del FileWriter que lo que hace es mejorar la eficiencia de escritura. Y FileWriter se encarga de escribir en un archivo, si no existe, lo crea; si ya existe lo que hará es sobreescribirlo.
-
-
-![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/01664fc4-bd91-4022-a5a0-5e7b5414759d)
+/github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/01664fc4-bd91-4022-a5a0-5e7b5414759d)
 
 
 Aquí también se añade uno de los puntos solicitados de la entrega, que los productos vendidos por cantidad están ordenados en forma descendente.
