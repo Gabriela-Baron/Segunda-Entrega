@@ -1,4 +1,4 @@
-# Segunda-Entrega
+# ENTREGA FINAL
 
  * INSTITUCION UNIVERSITARIA POLITECNICO GRANCOLOMBIANO
  * MODULO CONCEPTOS FUNDAMENTALES DE PPROGRAMACION [GRUPO B02]
@@ -73,6 +73,15 @@ NOTA: Si ocurre un error este se va imprimir en un mensaje de (ERROR) por consol
 Encontramos también una función en java llamada printProductsFile que nos permite imprimir el contenido del archivo por consola, adicional a eso incluimos FileName de tipo String que representa la ruta del archivo que se imprimirá. El bloque  Try-with-resources, es otra función para abrir y manejar un la lectura de archivos, en el caso de BufferedReader que lee el archivo fileName, hay que tener presente que cada una de las iteraciones del bucle éste va a leer una línea del archivo con el método readLine(), del BufferedReader y que Line (variable) es la linea leida que es la que almacena esta, si la línea no es nula, quiere decir que hay contenido y este va imprimir por consola utilizando el System.out.pintIn(Line).
 
 ![image](https://github.com/Gabriela-Baron/Segunda-Entrega/assets/164106618/d65ad97f-d1e5-442b-9cdd-0729ee85cc0b)
+
+# ASPECTOS DEL PROYECTO CON ARCHIVO TXT.
+
+Conclusion.txt
+
+> [!NOTE]
+> - [Conclusion.txt]
+> - [Directorio de archivos adjuntos](conclusion-txt).
+
 
 # CODIGO UTILIZADO EN LA SEGUNDA ENTREGA.
 
